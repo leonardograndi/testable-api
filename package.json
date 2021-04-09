@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "npx tsc",
-    "start": "rm -rf dist && yarn build && node dist/server.js",
+    "start": "rm -rf dist && yarn build && node dist/config/server.js",
     "start:local": "ts-node-dev ./src/main/config/server.ts"
   },
   "devDependencies": {
