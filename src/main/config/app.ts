@@ -1,16 +1,16 @@
-import express, { Application } from "express";
-import initRoutes from "./routes";
+import express, { Application } from 'express';
+import initRoutes from './routes';
 
 class App {
   app: Application;
 
   constructor() {
     this.app = express();
-    this.setupApp(this.app);
+    this.setupApp();
   }
 
-  setupApp(core: Application) {
-    initRoutes(core);
+  setupApp() {
+    initRoutes(this.app);
   }
 }
 
