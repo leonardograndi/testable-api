@@ -29,6 +29,8 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "express": "^4.17.1"
   }
 }
